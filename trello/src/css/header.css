@@ -1,0 +1,45 @@
+.header{
+    width:100%;
+    height:50px;
+    background-color:black;
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content:center;
+    padding:0 10fr 0 10fr;
+}
+.header>div{
+    display:flex;
+    align-items:center;
+/*     justify-content:center; */
+    background-color:black;
+    align-self:stretch;
+}
+.logo{
+  
+    flex:3;
+    font-weight:900;
+    font-size:large;
+    letter-spacing:2px;
+}
+
+.logo>div{
+    position:relative;
+    left:20px;
+}
+.nav{
+     display:flex;
+     align-items:center;
+     justify-content:center;
+     flex:1;
+}
+.nav>div{
+    flex:1;
+    display:flex;
+    align-self:stretch;
+    align-items:center;
+    justify-content:center; 
+}
+
+
+
