@@ -1,5 +1,5 @@
 # ReactProjects
-Personal React Projects
+Personal Practice React Projects
 
 expence tracker : https://cheerful-buttercream-0677e2.netlify.app/
 
