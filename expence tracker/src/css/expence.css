@@ -1,0 +1,122 @@
+.container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  gap:10px;
+}
+.container>div{
+  width:300px;
+}
+.balanceBox{
+    height: 87px;
+    box-shadow: 0px 0px 2px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.balanceBox>div{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex:1;
+  flex-direction:column;
+  
+}
+.income{
+  border-right:1px solid;
+}
+.income>h4{
+  color:green;
+}
+.expence>h4{
+  color:red;
+}
+
+.history{
+  font-size:20px;
+  font-weight:600;
+  margin-top:20px;
+}
+input{
+  margin-top:5px;
+  width:96%;
+  height:30px;
+  padding-left:10px;
+  font-family:unset;
+}
+.text{
+  margin-top:10px;
+  font-size:15px;
+  font-weight:600;
+}
+.text>span{
+  font-weight:400;
+}
+
+/* CSS */
+.button-14 {
+    background-color: #4b6ace;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 100%;
+    height: 42px;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgb(60 149 97 / 62%) 0 2px 5px 0;
+  outline: 0;
+}
+
+.transactionData{
+  margin-top:5px;
+  display:flex;
+  height:30px;
+  background-color:white;
+  align-items:center;
+}
+.tbr-green{
+  border-right:5px solid green;
+}
+.tbr-red{
+  border-right:5px solid red;
+}
+.transactionData>div{
+  font-weight:400;
+  font-size:15px;
+  flex:1;
+  padding:5px;
+}
+.amount{
+  display:flex;
+  align-items:flex-end;
+  justify-content:right;
+}
+.nothing{
+  font-size:15px;
+  font-weight:300;
+}
+
+

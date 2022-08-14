@@ -1,0 +1,28 @@
+.login-page-container{
+    width:100vw;
+    display:flex;
+    align-items:center;
+    gap:5px;
+    flex-direction:column;
+    margin-top:50px;
+}
+.login-page-container>input{
+    width:300px;
+    background-color:white;
+    
+}
+.active{
+   color:#008296;
+   border-bottom: #008296 solid;
+}
+
+.login-tab{
+   display:flex;
+   gap:20px;
+   width:300px;
+}
+.l-div{
+   display:flex;
+   flex-direction:column;
+   gap:5px;
+}

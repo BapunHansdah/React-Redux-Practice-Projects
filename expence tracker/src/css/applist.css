@@ -1,0 +1,37 @@
+.container{
+	padding-top:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+     background-color:white;
+}
+  
+.grid>div{
+    width: 200px;
+    padding:20px;
+    margin:20px;
+    height:300px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    /* background-color:white; */
+  }
+
+.noresult{
+   background-color:#cece4b;
+   color:aliceblue;
+   width:100vw;
+   height:100vh; 
+   display:flex;
+   align-items:center;
+   justify-content:center;
+}
+.movieimg>img{
+  object-fit:cover;
+  width:180px;
+}
