@@ -1,0 +1,32 @@
+.herocontainer{
+   margin-top:20px;
+    width:100vw;
+    height:100px;
+    background-color:#d3cbcb;
+    display:flex;
+   align-items:center;
+   justify-content:center;
+   
+}
+.border1{
+   width:90%;
+   background-color:white;
+   height:80%;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   
+}
+.text1{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   flex:1;
+}
+.text2{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   flex:1;
+   color:red;
+}
